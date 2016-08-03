@@ -1,0 +1,12 @@
+name: Test dashboard
+Groups:
+    - First:
+        Name: First group
+        Items:
+            - Item1:
+                Plagin: rrd
+                Settings:
+                     Path: /tmp/1.rrd
+                     Variable: temp
+            - Item2:
+                Plagin: loadAverages
